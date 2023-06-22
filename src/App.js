@@ -55,7 +55,7 @@ export default function SurveyJSReactApplication() {
           <div className="container-fluid">
             <div className="navbar-header">
               <a className="navbar-brand" href="/">
-                SurveyJS + React
+              🍓 Surveys Management
               </a>
             </div>
             <ul className="nav navbar-nav">

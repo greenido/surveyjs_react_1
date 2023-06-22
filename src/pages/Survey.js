@@ -11,7 +11,11 @@ function onValueChanged(_, options) {
   console.log("New value: " + options.value);
 }
 
+//
+//
+//
 function onComplete(survey) {
+  // TODO: Send Ajax request to your web server.
   console.log("Survey complete! Results: " + JSON.stringify(survey.data));
 }
 
