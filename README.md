@@ -1,5 +1,15 @@
-# SurveyJS + React Quickstart Template 
+# 🚠 SurveyJS + React 
 
+## TODOs
+
+- [ ] DB integration
+- [ ] Docker
+- [ ] CI/CD
+- [ ] Add a new question type
+
+
+
+## About SurveyJS
 SurveyJS is a set of JavaScript components that allow you and your users to build surveys / forms, store them in your database, and visualize survey results for data analysis. This quick start template is bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app) and uses the following SurveyJS components:
 
 - [SurveyJS Library / Runner](https://surveyjs.io/Documentation/Library?id=LibraryOverview)
