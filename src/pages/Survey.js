@@ -8,7 +8,7 @@ import { json } from "../data/survey_json.js";
 StylesManager.applyTheme("defaultV2");
 
 function onValueChanged(_, options) {
-  console.log("New value: " + options.value);
+  console.log("📗 New value: " + options.value);
 }
 
 //
@@ -16,14 +16,14 @@ function onValueChanged(_, options) {
 //
 function onComplete(survey) {
   // TODO: Send Ajax request to your web server.
-  console.log("Survey complete! Results: " + JSON.stringify(survey.data));
+  console.log("🍓 Survey complete! Results: " + JSON.stringify(survey.data));
 }
 
 export function SurveyPage() {
   const model = new Model(json);
   return (
     <div className="container">
-      <h1>SurveyJS Library / Runner</h1>
+      <h1>Survey Runner</h1>
       <Survey
         model={model}
         onComplete={onComplete}
